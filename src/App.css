@@ -1,0 +1,42 @@
+.film-card {
+  display: flex;
+  width: 980px; 
+  height: 290px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.film-card__img {
+  height: 100%;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 5px;
+  background: lightgray;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  line-height: 250px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.film-card__info {
+  flex-grow: 1;
+}
+
+.film-card__title {
+  margin-top: 0;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.card-body-stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
